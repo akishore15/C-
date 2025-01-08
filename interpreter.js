@@ -210,4 +210,11 @@ var max = function(a, b){
 var min = function(a, b){
     return Math.min(a, b);
 }
-
+var ifelse = function(cond1, ex1, cond2, ex2){
+    if (cond1) {
+        ex1
+    }
+    else if (cond2) {
+        ex2
+    }
+}
